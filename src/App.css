@@ -7,6 +7,50 @@
   pointer-events: none;
 }
 
+.createAccount-div {
+  margin-top: 40px
+}
+
+.message-boundary{
+  max-width: 600px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.has-error {
+  background-color: pink;
+  border-color: salmon;
+  color: black;
+}
+
+.success {
+  background-color: green;
+  border-color: greenyellow;
+  color: black;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 8px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.form > input{
+  margin-bottom: 4px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
